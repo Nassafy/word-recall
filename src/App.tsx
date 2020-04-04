@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Start from './components/Start';
+import Memorise from './components/Memorize';
+import { useStateContext } from './utils/store';
+import Guess from './components/Guess';
+import Result from './components/Result';
 
 function App() {
+
+  let stages = [
+    <Start/>,
+    <Memorise/>,
+    <Guess/>,
+    <Result/>
+  ]
+
+  const state = useStateContext();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {stages[state.stage]}
     </div>
   );
 }
