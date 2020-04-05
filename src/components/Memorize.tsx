@@ -5,7 +5,7 @@ function Memorise() {
     const state = useStateContext();
     const disatch = useDispatchStateContext();
     const list = state.words.map((word, index) => (
-        <li key={index}>{word.good}</li>
+        <li className="bg-gray-200 my-2 rounded py-1 px-4 w-full text-gray-700" key={index}>{word.good}</li>
     ))
     return (
         <>
@@ -14,7 +14,8 @@ function Memorise() {
                     {list}
                 </ul>
             </div>
-            <button onClick={() => disatch({ type: "nextStage" })}>Next</button>
+            <button className="btn w-full"
+             onClick={() => disatch({ type: "nextStage" })}>Next</button>
         </>
     )
 }

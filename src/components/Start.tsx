@@ -10,7 +10,7 @@ function Start() {
         const wordsStr = getWords(nbWords);
         const words = wordsStr.map((word) => {
             return {
-                good: word, 
+                good: word,
                 guess: ""
             }
         });
@@ -22,12 +22,14 @@ function Start() {
         setNbWords(event.currentTarget.valueAsNumber);
     }
     return (
-        <>
+        <div className="">
             <div>
-                <input type="number" onChange={onChange} value={nbWords}></input>
+                <input type="number" onChange={onChange} value={nbWords} className="input"></input>
             </div>
-            <button onClick={onClick}>Start</button>
-        </>
+            <div className="">
+                <button onClick={onClick} className="btn w-full my-5">Start</button>
+            </div>
+        </div>
     )
 }
 

@@ -23,11 +23,11 @@ function Guess() {
             <div>
                 {words.map((word, index) => (
                     <div key={index}>
-                        <input type="text" onChange={(event) => onChange(index, event)} value={word.guess} />
+                        <input className="input my-2" type="text" onChange={(event) => onChange(index, event)} value={word.guess} />
                     </div>
                 ))}
             </div>
-            <button onClick={onClick}>Next</button>
+            <button className="btn w-full" onClick={onClick}>Next</button>
         </>
     )
 }

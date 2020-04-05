@@ -7,18 +7,31 @@ function Result() {
 
     return (
         <>
-            <table>
-                <tbody>
+            <div className="flex flex-row">
+                <div className="flex-col mr-2">
                     {
                         state.words.map((word, index) => (
-                            <tr key={index}>
-                                <td>{word.good}</td>
-                                <td>{word.guess}</td>
-                            </tr>
+                            <div key={index}>
+                                <div className="w-1/2 bg-gray-200 my-4 rounded py-1 px-4 w-full text-gray-700">
+                                    {word.good}
+                                </div>
+                            </div>
                         ))
                     }
-                </tbody>
-            </table>
+                </div>
+                <div className="flex-col">
+                    {
+                        state.words.map((word, index) => (
+                            <div key={index}>
+                                <div className={`w-1/2 my-4 rounded py-1 px-4 w-full text-gray-700 ${word.good === word.guess ? "bg-green-400" : "bg-red-400"}`}>
+                                    {word.good}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+
             <div>Score: {score} / {state.words.length}</div>
         </>
     )

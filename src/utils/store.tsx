@@ -37,10 +37,10 @@ const reducer = (state: State, action: Action): State => {
     switch (action.type) {
         case 'nextStage':
             return { ...state, stage: state.stage++ };
-        case 'reset' :
+        case 'reset':
             return defaultState;
         case 'setWords':
-            return {...state, words: action.words};
+            return { ...state, words: action.words };
         default:
             throw new Error();
     }

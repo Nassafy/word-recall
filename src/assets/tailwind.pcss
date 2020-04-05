@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+.input {
+    @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight;
+}
+
+.input:focus{
+    @apply  outline-none bg-white border-blue-500;
+}
+
+.btn {
+    @apply shadow bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn:hover {
+    @apply bg-blue-700
+} 
+
+.btn: focus {
+    @apply shadow-outline outline-none
+}
+
+@tailwind utilities;
