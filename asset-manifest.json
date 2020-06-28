@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/word-recall/static/css/main.353e2d11.chunk.css",
-    "main.js": "/word-recall/static/js/main.ebfb2ff6.chunk.js",
-    "main.js.map": "/word-recall/static/js/main.ebfb2ff6.chunk.js.map",
+    "main.js": "/word-recall/static/js/main.2ced708e.chunk.js",
+    "main.js.map": "/word-recall/static/js/main.2ced708e.chunk.js.map",
     "runtime-main.js": "/word-recall/static/js/runtime-main.c3e73fc2.js",
     "runtime-main.js.map": "/word-recall/static/js/runtime-main.c3e73fc2.js.map",
     "static/js/2.134ad697.chunk.js": "/word-recall/static/js/2.134ad697.chunk.js",
     "static/js/2.134ad697.chunk.js.map": "/word-recall/static/js/2.134ad697.chunk.js.map",
     "index.html": "/word-recall/index.html",
-    "precache-manifest.63fc6b3ba878baffa6426bdee4523b31.js": "/word-recall/precache-manifest.63fc6b3ba878baffa6426bdee4523b31.js",
+    "precache-manifest.f3b30446986a8bfbe0f1a4313db7c43b.js": "/word-recall/precache-manifest.f3b30446986a8bfbe0f1a4313db7c43b.js",
     "service-worker.js": "/word-recall/service-worker.js",
     "static/css/main.353e2d11.chunk.css.map": "/word-recall/static/css/main.353e2d11.chunk.css.map",
     "static/js/2.134ad697.chunk.js.LICENSE.txt": "/word-recall/static/js/2.134ad697.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c3e73fc2.js",
     "static/js/2.134ad697.chunk.js",
     "static/css/main.353e2d11.chunk.css",
-    "static/js/main.ebfb2ff6.chunk.js"
+    "static/js/main.2ced708e.chunk.js"
   ]
 }
