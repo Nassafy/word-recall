@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3a956ab0f9de74698f026786bb042ff",
+    "revision": "de838d0bdc36a55a6ae8fbea43868888",
     "url": "/word-recall/index.html"
   },
   {
-    "revision": "9ad4170b290e89023c73",
+    "revision": "55d2cf344b5bc5d626c9",
     "url": "/word-recall/static/css/main.353e2d11.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/word-recall/static/js/2.134ad697.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ad4170b290e89023c73",
-    "url": "/word-recall/static/js/main.bf2d1a3b.chunk.js"
+    "revision": "55d2cf344b5bc5d626c9",
+    "url": "/word-recall/static/js/main.ebfb2ff6.chunk.js"
   },
   {
     "revision": "dd19e66dd9c038797329",
