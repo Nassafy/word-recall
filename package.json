@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.pcss -o src/assets/main.css",
-    "watch:css": "postcss src/assets/tailwind.pcss -o src/assets/main.css"
+    "watch:css": "postcss src/assets/tailwind.pcss -o src/assets/main.css",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,8 +42,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.7.5",
-    "postcss-cli": "^7.1.0",
-    "prettier": "2.0.5",
-    "tailwindcss": "^1.2.0"
-  }
+    "gh-pages": "^3.1.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "homepage": "word-recall"
 }

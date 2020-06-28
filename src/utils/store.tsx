@@ -36,7 +36,7 @@ const defaultState: State = {
 const reducer = (state: State, action: Action): State => {
     switch (action.type) {
         case 'nextStage':
-            return { ...state, stage: state.stage++ };
+            return { ...state, stage: state.stage + 1 };
         case 'reset':
             return defaultState;
         case 'setWords':
